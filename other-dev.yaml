@@ -12,7 +12,7 @@ feign:
     enabled: true
 hystrix:
   commond:
-    default:
+    client:
       execution:
         isolation:
           thread:
